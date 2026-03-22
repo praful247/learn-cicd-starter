@@ -18,7 +18,7 @@ import (
 )
 
 type apiConfig struct {
-	DB *database.Queries
+	DB *databse.Queries
 }
 
 //go:embed static/*
