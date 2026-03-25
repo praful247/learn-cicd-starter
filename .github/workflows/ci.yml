@@ -21,8 +21,8 @@ jobs:
       - name: print go version
         run: go test -v -cover ./...
 
-  formating:
-    name : Formating test
+  style:
+    name : Formating
     runs-on: ubuntu-latest
 
     steps:
@@ -34,5 +34,5 @@ jobs:
         with:
           go-version: "1.26.0"
 
-      - name : style
+      - name : Style
         run  : test -z $(go fmt ./...)
