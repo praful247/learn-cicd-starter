@@ -7,6 +7,8 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strings" // Add this
+    "time"    // Add this
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/cors"
