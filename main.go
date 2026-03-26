@@ -105,3 +105,5 @@ cleanPort = strings.ReplaceAll(cleanPort, "\r", "")
 log.Printf("Serving on port: %s\n", cleanPort)
 	log.Fatal(srv.ListenAndServe())
 }
+
+
